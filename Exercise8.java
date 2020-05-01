@@ -9,7 +9,6 @@ public class Exercise8{
         ex = input.nextInt();
         
         if(ex == 1){
-            
         String name = "Marry";
         int age = 20;
         double weight = 65.48;
