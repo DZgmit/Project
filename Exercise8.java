@@ -3,12 +3,12 @@ public class Exercise8{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         
-        int a;
+        int ex = 0;
         
-        System.out.print("Pick a exercise from 1 to 6 or pick 7 to exit: ");
-        a = input.nextInt();
+        System.out.print("Pick a exercise from 1 to 6");
+        ex = input.nextInt();
         
-        if(a == 1){
+        if(ex == 1){
             
         String name = "Marry";
         int age = 20;
@@ -20,7 +20,7 @@ public class Exercise8{
         System.out.println("Her favourite colour is " +colour+"");
         }
       
-        else if(a == 2){
+        else if(ex == 2){
         int number1 = 0;
         int number2 = 0;
         int result = 0;
@@ -38,7 +38,7 @@ public class Exercise8{
         System.out.println(number1 + " * " + number2 + " = " +result);
         }
       
-        else if(a == 3){
+        else if(ex == 3){
         int number = 0;
 
         System.out.print("Enter number: ");
@@ -53,7 +53,7 @@ public class Exercise8{
         }
         }
       
-        else if(a == 4){
+        else if(ex == 4){
         int number = 0;
         int counter = 0;
           
@@ -73,7 +73,7 @@ public class Exercise8{
         System.out.println(counter+". Dawid");
         }
           
-        }else if(a == 5){
+        }else if(ex == 5){
         int[] x = {20, 30, 40, 50};
         int sum = 0;
         int pro = 1;
@@ -90,7 +90,7 @@ public class Exercise8{
         System.out.println("The product value of the array elements is: "+pro);
         }
           
-        else if(a == 6){
+        else if(ex == 6){
         String symbol = "";  
         int row = 0;
         int col = 0;
@@ -110,8 +110,8 @@ public class Exercise8{
 	    inner_counter = 0;
 	    while(inner_counter < col){
 	    System.out.print(symbol+" ");
-		inner_counter = inner_counter + 1;
-		}
+        inner_counter = inner_counter + 1;
+	    }
           
 	    System.out.print("\n");
 	    counter = counter + 1;
@@ -120,9 +120,6 @@ public class Exercise8{
 	    System.out.println();
         }
           
-        else if(a == 7){
-        System.out.print("Goodbye");
-        System.exit(0);
 }
     }
-	     }
+	  
